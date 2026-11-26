@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANKA WORKS | Gücümüz Dijitalde, Odağımız Büyümenizde</title>
+  <meta name="description" content="ANKA WORKS Dijital Pazarlama Ajansı — Gücümüz dijitalde, odağımız büyümenizde. 100+ yönetilen hesap ve aylık 5M+ ₺ reklam bütçesi ile Google Ads, Meta ve kreatif büyüme çözümleri." />
+  <meta property="og:title" content="ANKA WORKS | Gücümüz Dijitalde, Odağımız Büyümenizde" />
+  <meta property="og:description" content="100+ yönetilen hesap ve aylık 5M+ ₺ yönetilen bütçe ile stratejiden prodüksiyona bütüncül dijital büyüme." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/anka-logo.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="assets/anka-logo.jpeg" />
+  <link rel="icon" type="image/jpeg" href="assets/anka-logo.jpeg" />
+  <link rel="apple-touch-icon" href="assets/anka-logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <!-- Logo-Inspired Diagonal Light Rays & Ambient Glow -->
+  <div class="window-rays" aria-hidden="true"></div>
+
+  <!-- Cinematic Opening Curtain -->
+  <div class="intro-splash" id="introSplash" role="dialog" aria-label="ANKA WORKS Açılış">
+    <div class="intro-beam" aria-hidden="true"></div>
+    <div class="intro-inner">
+      <div class="intro-logo-wrap">
+        <img src="assets/anka-logo.jpeg" alt="ANKA WORKS Dijital Pazarlama Ajansı Logosu" class="intro-logo" />
+        <div class="intro-ring" aria-hidden="true"></div>
+      </div>
+      <div class="intro-line" aria-hidden="true"></div>
+      <p class="intro-slogan">
+        Gücümüz dijitalde, <span>odağımız büyümenizde.</span>
+      </p>
+      <button type="button" class="intro-skip" id="introSkipBtn">Siteye Geç →</button>
+    </div>
+  </div>
+
+  <!-- Top Utility Bar -->
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <div class="utility-left">
+        <span class="utility-dot"></span>
+        <span>ANKA WORKS • DİJİTAL PAZARLAMA AJANSI</span>
+      </div>
+      <div class="utility-right">
+        <span>100+ YÖNETİLEN HESAP • AYLIK 5M+ ₺ BÜTÇE • GOOGLE ADS & META</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="ANKA WORKS Ana Sayfa">
+        <img src="assets/anka-logo.jpeg" alt="ANKA WORKS Logo" class="brand-logo-img" />
+        <div class="brand-text">
+          <span class="brand-name">ANKA WORKS</span>
+          <span class="brand-sub">DİJİTAL PAZARLAMA AJANSI</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Ana Menü">
+        <a href="#yaklasim">YAKLAŞIMIMIZ</a>
+        <a href="#hizmetler">HİZMETLER</a>
+        <a href="#sektorler">SEKTÖRLER & 100+ HESAP</a>
+        <a href="#performans">GOOGLE ADS & META</a>
+        <a href="#surec">SÜREÇ</a>
+        <a href="#sss">SSS</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#iletisim" class="btn-copper">
+          <span>Teklif Al</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü Aç/Kapat" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#yaklasim">Yaklaşımımız</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#sektorler">Sektörler & 100+ Hesap</a>
+      <a href="#performans">Google Ads & Meta</a>
+      <a href="#surec">Süreç Standartları</a>
+      <a href="#sss">Sıkça Sorulan Sorular</a>
+      <a href="#iletisim" class="btn-copper">Markanızı Büyütelim</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Asymmetric Luxury Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-kicker">STRATEJİDEN PRODÜKSİYONA BÜTÜNCÜL BÜYÜME</div>
+          <h1 class="hero-title">
+            <span class="champagne-text">Gücümüz dijitalde,</span><br />
+            <span class="copper-text">odağımız büyümenizde.</span>
+          </h1>
+          <p class="hero-lead">
+            <strong>100+ yönetilen müşteri hesabı</strong> ve <strong>aylık 5M+ ₺ reklam bütçesi</strong> tecrübesiyle; Google Ads, Meta reklamları, sosyal medya ve kreatif prodüksiyonu tek merkezde yönetiyoruz.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#iletisim" class="btn-copper btn-copper--lg">
+              <span>Stratejik İş Birliği</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5L12 3z"/></svg>
+            </a>
+            <a href="#sektorler" class="btn-champagne-outline">
+              <span>Sektörler & Ölçeğimiz</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#performans" class="showreel-badge" aria-label="Performans Pazarlamasını İncele">
+              <svg viewBox="0 0 100 100" class="showreel-svg" aria-hidden="true">
+                <defs>
+                  <path id="showreelCircle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                </defs>
+                <text font-size="8.2" font-weight="700" letter-spacing="2.1" fill="currentColor">
+                  <textPath href="#showreelCircle">ANKA WORKS • 100+ HESAP • 5M+ ₺ • </textPath>
+                </text>
+              </svg>
+              <span class="showreel-play">↗</span>
+            </a>
+          </div>
+
+          <div class="hero-kpi-strip">
+            <div class="hkpi">
+              <strong>100+</strong>
+              <span>Yönetilen Hesap</span>
+            </div>
+            <div class="hkpi-sep" aria-hidden="true"></div>
+            <div class="hkpi">
+              <strong>5M+ ₺</strong>
+              <span>Aylık Bütçe</span>
+            </div>
+            <div class="hkpi-sep" aria-hidden="true"></div>
+            <div class="hkpi">
+              <strong>360°</strong>
+              <span>Google & Meta + Kreatif</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="hero-offset-frame">
+            <div class="hero-wireframe-back" aria-hidden="true"></div>
+            <div class="hero-logo-card">
+              <img src="assets/anka-logo.jpeg" alt="ANKA WORKS Dijital Pazarlama Ajansı" class="hero-logo-exact" />
+              <div class="hero-floating-badge">
+                <strong>ANKA WORKS</strong>
+                <span>Google Ads & Meta Partner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dual-Track Counter-Scrolling Marquee -->
+    <div class="marquee-strip marquee-strip--dual" aria-hidden="true">
+      <div class="marquee-track">
+        <span>100+ YÖNETİLEN MÜŞTERİ HESABI</span><span class="marquee-sep">✳</span>
+        <span>AYLIK 5M+ ₺ YÖNETİLEN REKLAM BÜTÇESİ</span><span class="marquee-sep">✳</span>
+        <span>GOOGLE ADS & META PERFORMANS</span><span class="marquee-sep">✳</span>
+        <span>GÜCÜMÜZ DİJİTALDE, ODAĞIMIZ BÜYÜMENİZDE</span><span class="marquee-sep">✳</span>
+        <span>100+ YÖNETİLEN MÜŞTERİ HESABI</span><span class="marquee-sep">✳</span>
+        <span>AYLIK 5M+ ₺ YÖNETİLEN REKLAM BÜTÇESİ</span><span class="marquee-sep">✳</span>
+        <span>GOOGLE ADS & META PERFORMANS</span><span class="marquee-sep">✳</span>
+        <span>GÜCÜMÜZ DİJİTALDE, ODAĞIMIZ BÜYÜMENİZDE</span><span class="marquee-sep">✳</span>
+      </div>
+      <div class="marquee-track marquee-track--reverse">
+        <span>SAĞLIK & KLİNİK (30+)</span><span class="marquee-sep">◆</span>
+        <span>YEME-İÇME & FRANCHISE (25+)</span><span class="marquee-sep">◆</span>
+        <span>KURUMSAL HİZMETLER (25+)</span><span class="marquee-sep">◆</span>
+        <span>E-TİCARET & PERAKENDE (20+)</span><span class="marquee-sep">◆</span>
+        <span>KREATİF PRODÜKSİYON</span><span class="marquee-sep">◆</span>
+        <span>SAĞLIK & KLİNİK (30+)</span><span class="marquee-sep">◆</span>
+        <span>YEME-İÇME & FRANCHISE (25+)</span><span class="marquee-sep">◆</span>
+        <span>KURUMSAL HİZMETLER (25+)</span><span class="marquee-sep">◆</span>
+        <span>E-TİCARET & PERAKENDE (20+)</span><span class="marquee-sep">◆</span>
+        <span>KREATİF PRODÜKSİYON</span><span class="marquee-sep">◆</span>
+      </div>
+    </div>
+
+    <!-- =========================================================
+         01 — BÜYÜME YAKLAŞIMIMIZ
+         ========================================================= -->
+    <section class="arch-section" id="yaklasim">
+      <div class="arch-split arch-split--rail-left">
+        <div class="index-rail reveal">
+          <div class="index-rail-inner">
+            <span class="index-num">01</span>
+            <h2 class="index-vertical-title">Yaklaşımımız</h2>
+            <a href="#hizmetler" class="editorial-link">İNCELE</a>
+          </div>
+        </div>
+
+        <div class="content-slab content-slab--espresso reveal reveal-delay">
+          <div class="slab-inner">
+            <div class="overlap-quote-card metal-card">
+              <span class="card-eyebrow">STRATEJİK YAKLAŞIM</span>
+              <h3>Görünürlük, kurumsal güven, nitelikli talep ve ölçülebilir büyüme odağı.</h3>
+            </div>
+
+            <div class="editorial-4-grid">
+              <article class="metal-card ed-card">
+                <span class="ed-num">01</span>
+                <h4>Marka algısını güçlendirme</h4>
+                <p>Kurumsal kimliğinizle tutarlı, güven veren dijital vitrin oluşturuyoruz.</p>
+              </article>
+              <article class="metal-card ed-card">
+                <span class="ed-num">02</span>
+                <h4>Düzenli ve tutarlı içerik</h4>
+                <p>Planlı yayın takvimiyle kesintisiz marka görünürlüğü sağlıyoruz.</p>
+              </article>
+              <article class="metal-card ed-card">
+                <span class="ed-num">03</span>
+                <h4>Doğru hedef kitleye erişim</h4>
+                <p>Veri odaklı segmentasyon ile nitelikli potansiyel müşteri akışı kuruyoruz.</p>
+              </article>
+              <article class="metal-card ed-card">
+                <span class="ed-num">04</span>
+                <h4>Performans odaklı optimizasyon</h4>
+                <p>Sürekli ölçümleme ve dönüşüm merkezli iyileştirme ile bütçenizi büyütüyoruz.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         02 — HİZMET MİMARİMİZ
+         ========================================================= -->
+    <section class="arch-section" id="hizmetler">
+      <div class="arch-split arch-split--rail-right">
+        <div class="content-slab content-slab--obsidian reveal">
+          <div class="slab-inner">
+            <div class="slab-header">
+              <span class="card-eyebrow">HİZMET MİMARİSİ</span>
+              <h2>Stratejiden prodüksiyona <span class="copper-text">bütüncül çözümler</span></h2>
+            </div>
+
+            <div class="service-icon-grid">
+              <article class="metal-card svc-item">
+                <div class="svc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+                </div>
+                <span class="svc-code">01</span>
+                <h4>SOSYAL MEDYA YÖNETİMİ VE STRATEJİ</h4>
+                <p>Marka diline uygun stratejik içerik planlama, topluluk yönetimi ve düzenli yayın akışı.</p>
+              </article>
+
+              <article class="metal-card svc-item">
+                <div class="svc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+                </div>
+                <span class="svc-code">02</span>
+                <h4>KREATİF YÖNETİMİ VE GÖRSEL TASARIM</h4>
+                <p>Kurumsal kimliğinizi dijitalde öne çıkaran görsel konsept geliştirme ve özgün tasarım dili.</p>
+              </article>
+
+              <article class="metal-card svc-item">
+                <div class="svc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 3 5-6"/></svg>
+                </div>
+                <span class="svc-code">03</span>
+                <h4>GOOGLE ADS & META REKLAM YÖNETİMİ</h4>
+                <p>Arama Ağı, Performance Max ve Meta kampanyalarında hedef kitle analizi, A/B testi ve ROAS optimizasyonu.</p>
+              </article>
+
+              <article class="metal-card svc-item">
+                <div class="svc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+                </div>
+                <span class="svc-code">04</span>
+                <h4>PROFESYONEL ÇEKİM DESTEĞİ VE KURGU</h4>
+                <p>Kreatif yönetim eşliğinde saha veya stüdyoda uçtan uca fotoğraf, video ve Reels üretimi.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="index-rail reveal reveal-delay">
+          <div class="index-rail-inner">
+            <span class="index-num">02</span>
+            <h2 class="index-vertical-title">Hizmetlerimiz</h2>
+            <a href="#sektorler" class="editorial-link">İNCELE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         03 — SEKTÖRLER, 100+ HESAP & 5M+ BÜTÇE
+         ========================================================= -->
+    <section class="arch-section" id="sektorler">
+      <div class="arch-split arch-split--rail-left">
+        <div class="index-rail index-rail--wide reveal">
+          <div class="index-rail-inner">
+            <span class="index-num">03</span>
+            <h2 class="index-vertical-title">Sektörler</h2>
+            <div class="rail-tabs" role="tablist" aria-label="Sektörler ve Operasyon Sekmeleri">
+              <button type="button" class="rail-tab active" data-panel="panel-sectors" role="tab" aria-selected="true">Sektörler & Bütçe</button>
+              <button type="button" class="rail-tab" data-panel="panel-plan" role="tab" aria-selected="false">Aylık İçerik Planı</button>
+              <button type="button" class="rail-tab" data-panel="panel-quality" role="tab" aria-selected="false">Kalite Standartları</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-slab content-slab--espresso reveal reveal-delay">
+          <div class="slab-inner">
+            <!-- Panel 1: Sektörler, 100+ Hesap & 5M+ Bütçe -->
+            <div class="tab-panel active" id="panel-sectors">
+              <div class="slab-header">
+                <span class="card-eyebrow">ÖLÇEK & SEKTÖR DENEYİMİ</span>
+                <h2>100+ hesapta <span class="copper-text">kanıtlanmış büyüme</span></h2>
+              </div>
+
+              <div class="budget-authority-bar metal-card">
+                <div class="auth-stat">
+                  <span class="auth-num">100+</span>
+                  <span class="auth-label">Yönetilen Marka & Reklam Hesabı</span>
+                </div>
+                <div class="auth-divider" aria-hidden="true"></div>
+                <div class="auth-stat">
+                  <span class="auth-num">5M+ ₺</span>
+                  <span class="auth-label">Aylık Yönetilen Reklam Bütçesi</span>
+                </div>
+                <div class="auth-divider" aria-hidden="true"></div>
+                <div class="auth-stat">
+                  <span class="auth-num">4</span>
+                  <span class="auth-label">Ana Sektör Dikeyinde Uzmanlık</span>
+                </div>
+              </div>
+
+              <div class="partners-showcase-grid">
+                <article class="metal-card partner-ed-card">
+                  <div class="partner-ed-watermark" aria-hidden="true">KLİNİK</div>
+                  <div class="partner-ed-top">
+                    <div class="partner-ed-avatar">30+</div>
+                    <span class="partner-ed-badge"><i class="pulse-dot"></i> Yönetilen Hesap</span>
+                  </div>
+                  <h3>SAĞLIK & PSİKOLOJİ</h3>
+                  <p class="partner-ed-sub">KLİNİKLER & UZMANLAR</p>
+                  <div class="partner-ed-branches">
+                    <span>Güven Odaklı İçerik</span>
+                    <span>Google & Meta Randevu Akışı</span>
+                  </div>
+                </article>
+
+                <article class="metal-card partner-ed-card">
+                  <div class="partner-ed-watermark" aria-hidden="true">ŞUBE</div>
+                  <div class="partner-ed-top">
+                    <div class="partner-ed-avatar">25+</div>
+                    <span class="partner-ed-badge"><i class="pulse-dot"></i> Yönetilen Hesap</span>
+                  </div>
+                  <h3>YEME-İÇME & FRANCHISE</h3>
+                  <p class="partner-ed-sub">ÇOK ŞUBELİ MARKALAR</p>
+                  <div class="partner-ed-branches">
+                    <span>Lokasyon Bazlı Reklam</span>
+                    <span>Reels Prodüksiyon</span>
+                  </div>
+                </article>
+
+                <article class="metal-card partner-ed-card">
+                  <div class="partner-ed-watermark" aria-hidden="true">B2B</div>
+                  <div class="partner-ed-top">
+                    <div class="partner-ed-avatar">25+</div>
+                    <span class="partner-ed-badge"><i class="pulse-dot"></i> Yönetilen Hesap</span>
+                  </div>
+                  <h3>KURUMSAL HİZMETLER</h3>
+                  <p class="partner-ed-sub">DANIŞMANLIK & B2B</p>
+                  <div class="partner-ed-branches">
+                    <span>Google Arama Liderliği</span>
+                    <span>Nitelikli Lead</span>
+                  </div>
+                </article>
+
+                <article class="metal-card partner-ed-card">
+                  <div class="partner-ed-watermark" aria-hidden="true">ROAS</div>
+                  <div class="partner-ed-top">
+                    <div class="partner-ed-avatar">20+</div>
+                    <span class="partner-ed-badge"><i class="pulse-dot"></i> Yönetilen Hesap</span>
+                  </div>
+                  <h3>E-TİCARET & PERAKENDE</h3>
+                  <p class="partner-ed-sub">DÖNÜŞÜM ODAKLI BÜYÜME</p>
+                  <div class="partner-ed-branches">
+                    <span>Performance Max & Shopping</span>
+                    <span>ROAS Optimizasyonu</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Panel 2: Aylık İçerik Planı -->
+            <div class="tab-panel" id="panel-plan">
+              <div class="slab-header">
+                <span class="card-eyebrow">OPERASYONEL PLAN</span>
+                <h2>Aylık içerik ve <span class="copper-text">prodüksiyon planı</span></h2>
+              </div>
+
+              <div class="plan-split">
+                <ul class="plan-list">
+                  <li class="metal-card"><strong>Haftada 3 gönderi</strong><span>Marka diline uygun kurumsal tasarım ve stratejik metin</span></li>
+                  <li class="metal-card"><strong>Haftada 3–5 hikâye</strong><span>Günlük etkileşim ve marka bilinirliği akışı</span></li>
+                  <li class="metal-card"><strong>Ayda 4–6 Reels</strong><span>Yüksek izlenme potansiyelli dinamik kurgu</span></li>
+                  <li class="metal-card"><strong>Ayda 1 profesyonel çekim desteği</strong><span>Saha veya stüdyoda uçtan uca fotoğraf & video üretimi</span></li>
+                  <li class="metal-card"><strong>Aylık içerik takvimi ve rapor</strong><span>Yayın öncesi onaylı takvim ve ay sonu yönetici özeti</span></li>
+                </ul>
+
+                <div class="calendar-widget metal-card">
+                  <div class="calendar-header">
+                    <span>AYLIK YAYIN TAKVİMİ</span>
+                    <span class="badge-copper">Onaylı Akış</span>
+                  </div>
+                  <div class="calendar-weekdays">
+                    <span>PZT</span><span>SAL</span><span>ÇAR</span><span>PER</span><span>CUM</span><span>CMT</span><span>PZR</span>
+                  </div>
+                  <div class="calendar-days" id="calendarGrid">
+                    <span>1</span><span>2</span><span class="day-active" title="Gönderi + Hikâye">3</span><span>4</span><span>5</span><span class="day-active" title="Reels Yayını">6</span><span>7</span>
+                    <span>8</span><span class="day-active" title="Gönderi">9</span><span class="day-shoot" title="Profesyonel Çekim Günü">10</span><span>11</span><span>12</span><span class="day-active" title="Reels + Hikâye">13</span><span>14</span>
+                    <span>15</span><span>16</span><span class="day-active" title="Gönderi">17</span><span>18</span><span>19</span><span class="day-active" title="Reels Yayını">20</span><span>21</span>
+                    <span>22</span><span>23</span><span class="day-active" title="Gönderi + Hikâye">24</span><span>25</span><span>26</span><span class="day-active" title="Reels Yayını">27</span><span>28</span>
+                    <span>29</span><span>30</span><span class="day-report" title="Aylık Performans Raporu">31</span><span class="day-muted">1</span><span class="day-muted">2</span><span class="day-muted">3</span><span class="day-muted">4</span>
+                  </div>
+                  <div class="calendar-note" id="calendarNote">Detay için işaretli günlere tıklayın.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 3: Kalite Standartları -->
+            <div class="tab-panel" id="panel-quality">
+              <div class="slab-header">
+                <span class="card-eyebrow">KALİTE STANDARTLARI</span>
+                <h2>Kurumsal çalışma <span class="copper-text">disiplinimiz</span></h2>
+              </div>
+
+              <div class="editorial-4-grid">
+                <article class="metal-card ed-card">
+                  <span class="ed-num">01 / PLANLAMA</span>
+                  <h4>Onaylı Aylık Yol Haritası</h4>
+                  <p>Tüm içerik üretimi ve reklam kampanyaları ay başında net hedeflerle planlanır.</p>
+                </article>
+                <article class="metal-card ed-card">
+                  <span class="ed-num">02 / KREATİF</span>
+                  <h4>Marka Bütünlüğü</h4>
+                  <p>Tasarım dili ve görsel estetik her mecrada kurumsal duruşunuzu güçlendirir.</p>
+                </article>
+                <article class="metal-card ed-card">
+                  <span class="ed-num">03 / DENETİM</span>
+                  <h4>Çok Aşamalı Kontrol</h4>
+                  <p>Çekim, kurgu ve metinler yayına alınmadan uzman denetimi ve marka onayından geçer.</p>
+                </article>
+                <article class="metal-card ed-card">
+                  <span class="ed-num">04 / VERİ</span>
+                  <h4>Ölçülebilir KPI</h4>
+                  <p>Tüm aksiyonlar aylık erişim, etkileşim ve dönüşüm raporlarıyla şeffaf sunulur.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         04 — PERFORMANS PAZARLAMASI (GOOGLE ADS & META)
+         ========================================================= -->
+    <section class="arch-section" id="performans">
+      <div class="arch-split arch-split--rail-right">
+        <div class="content-slab content-slab--obsidian reveal">
+          <div class="slab-inner meta-split">
+            <div>
+              <div class="slab-header">
+                <span class="card-eyebrow">PERFORMANS PAZARLAMASI</span>
+                <h2>Google Ads & <span class="copper-text">Meta reklam yönetimi</span></h2>
+              </div>
+              <ol class="meta-steps-list">
+                <li class="metal-card"><span>01</span> Hedef kitle, anahtar kelime ve kampanya stratejisi planı</li>
+                <li class="metal-card"><span>02</span> Google Arama / PMax ve Meta reklam setleri kurulumu</li>
+                <li class="metal-card"><span>03</span> A/B kreatif testleri ve reklam sonrası deneyim analizi</li>
+                <li class="metal-card"><span>04</span> Şeffaf bütçe verimliliği ve ROAS / CPA optimizasyonu</li>
+                <li class="metal-card"><span>05</span> Aylık kapsamlı dönüşüm ve etki raporu</li>
+              </ol>
+            </div>
+
+            <div class="dashboard-card metal-card">
+              <div class="dashboard-top">
+                <div class="platform-tabs" role="tablist" aria-label="Reklam Platformu Seçimi">
+                  <button type="button" class="platform-tab active" data-platform="meta" role="tab" aria-selected="true">Meta Ads</button>
+                  <button type="button" class="platform-tab" data-platform="google" role="tab" aria-selected="false">Google Ads</button>
+                </div>
+                <span class="badge-outline">Örnek Raporlama</span>
+              </div>
+
+              <div class="metrics-grid" id="perfMetricsGrid">
+                <div class="metric-box">
+                  <span class="metric-label" id="m1Label">Erişim (Reach)</span>
+                  <div class="metric-val"><span class="kpi-num" id="m1Val" data-target="1.2" data-suffix="M" data-decimals="1">1.2M</span> <span class="metric-delta" id="m1Delta">+18%</span></div>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-label" id="m2Label">Gösterim (Impressions)</span>
+                  <div class="metric-val"><span class="kpi-num" id="m2Val" data-target="3.6" data-suffix="M" data-decimals="1">3.6M</span> <span class="metric-delta" id="m2Delta">+22%</span></div>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-label" id="m3Label">Bağlantı Tıklamaları</span>
+                  <div class="metric-val"><span class="kpi-num" id="m3Val" data-target="45.2" data-suffix="K" data-decimals="1">45.2K</span> <span class="metric-delta" id="m3Delta">+14%</span></div>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-label" id="m4Label">Dönüşüm (Conversions)</span>
+                  <div class="metric-val"><span class="kpi-num" id="m4Val" data-target="2.7" data-suffix="K" data-decimals="1">2.7K</span> <span class="metric-delta" id="m4Delta">+24%</span></div>
+                </div>
+              </div>
+
+              <div class="placement-bars">
+                <div class="bar-row">
+                  <div class="bar-label"><span id="b1Label">Reels Yerleşimi</span><span id="b1Pct">%84</span></div>
+                  <div class="bar-track"><div class="bar-fill" id="b1Fill" style="--target-width: 84%;"></div></div>
+                </div>
+                <div class="bar-row">
+                  <div class="bar-label"><span id="b2Label">Akış (Feed)</span><span id="b2Pct">%72</span></div>
+                  <div class="bar-track"><div class="bar-fill" id="b2Fill" style="--target-width: 72%;"></div></div>
+                </div>
+                <div class="bar-row">
+                  <div class="bar-label"><span id="b3Label">Hikâye (Stories)</span><span id="b3Pct">%65</span></div>
+                  <div class="bar-track"><div class="bar-fill" id="b3Fill" style="--target-width: 65%;"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="index-rail reveal reveal-delay">
+          <div class="index-rail-inner">
+            <span class="index-num">04</span>
+            <h2 class="index-vertical-title">Performans</h2>
+            <a href="#surec" class="editorial-link">İNCELE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         05 — SÜREÇ STANDARTLARI
+         ========================================================= -->
+    <section class="arch-section" id="surec">
+      <div class="arch-split arch-split--rail-left">
+        <div class="index-rail reveal">
+          <div class="index-rail-inner">
+            <span class="index-num">05</span>
+            <h2 class="index-vertical-title">Süreçlerimiz</h2>
+            <a href="#sss" class="editorial-link">İNCELE</a>
+          </div>
+        </div>
+
+        <div class="content-slab content-slab--espresso reveal reveal-delay">
+          <div class="slab-inner">
+            <div class="slab-header">
+              <span class="card-eyebrow">SÜREÇ YÖNETİMİ & STANDARTLAR</span>
+              <h2>İş birliği ve <span class="copper-text">süreç standartları</span></h2>
+            </div>
+
+            <div class="accordion-list" id="processAccordion">
+              <div class="acc-item open">
+                <button type="button" class="acc-trigger" aria-expanded="true">
+                  <span>01 — Planlı Prodüksiyon Takvimi</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Aylık çekim günleri önceden hazırlanan senaryo ve çekim planına göre profesyonel ekipmanla gerçekleştirilir.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>02 — Özel Müşteri Temsilcisi</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Tüm iletişim, brief alma ve koordinasyon süreçleri tek bir sorumlu müşteri temsilcisi üzerinden hızlıca yönetilir.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>03 — Yayın Öncesi Onay ve Revizyon Disiplini</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Hazırlanan tüm tasarımlar, içerikler ve reklam kreatifleri yayın öncesinde mutlaka marka onayına sunulur.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>04 — Kurumsal Gizlilik ve Veri Güvenliği</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Marka varlıkları, reklam hesap erişimleri ve ticari strateji bilgileri kurumsal gizlilik ilkeleriyle güvence altına alınır.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>05 — Düzenli Performans Değerlendirmesi</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Her ay sonunda belirlenen KPI hedefleri, ROAS verileri ve büyüme metrikleri değerlendirme toplantısıyla gözden geçirilir.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         06 — SIKÇA SORULAN SORULAR (SSS)
+         ========================================================= -->
+    <section class="arch-section" id="sss">
+      <div class="arch-split arch-split--rail-right">
+        <div class="content-slab content-slab--obsidian reveal">
+          <div class="slab-inner">
+            <div class="slab-header">
+              <span class="card-eyebrow">MERAK EDİLENLER</span>
+              <h2>Sıkça sorulan <span class="copper-text">sorular</span></h2>
+            </div>
+
+            <div class="accordion-list" id="faqAccordion">
+              <div class="acc-item open">
+                <button type="button" class="acc-trigger" aria-expanded="true">
+                  <span>Hizmet bedeline Google Ads ve Meta reklam bütçesi dahil mi?</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Hayır; reklam bütçesi doğrudan markanızın kendi Google Ads ve Meta reklam hesapları üzerinden harcanır. Ajans hizmet bedeli ise strateji, yönetim, optimizasyon, kreatif ve prodüksiyon süreçlerini kapsar.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>Reklam kampanyaları için minimum ne kadar bütçe öneriyorsunuz?</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Sektör rekabetine ve hedeflenen dönüşüm hacmine göre değişmekle birlikte, ücretsiz strateji görüşmesinde markanız için en verimli başlangıç bütçesini ve kanal dağılımını birlikte belirliyoruz.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>Profesyonel çekim desteği nasıl planlanıyor?</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Ay başında hazırlanan içerik takvimine paralel olarak senaryo ve çekim listesi oluşturulur. Belirlenen çekim gününde kreatif yönetim eşliğinde saha veya stüdyo çekimleri uçtan uca tamamlanır.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>İçerikler ve reklamlar yayına alınmadan önce onayımıza sunuluyor mu?</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Evet. Hazırlanan tüm gönderi tasarımları, Reels kurguları ve reklam kreatifleri yayına alınmadan önce mutlaka sizin onayınıza ve revizyon sürecinize sunulur.</p>
+                </div>
+              </div>
+
+              <div class="acc-item">
+                <button type="button" class="acc-trigger" aria-expanded="false">
+                  <span>Raporlama sıklığı nedir ve performansı nasıl takip ediyoruz?</span>
+                  <span class="acc-plus">+</span>
+                </button>
+                <div class="acc-body">
+                  <p>Her ay sonunda erişim, gösterim, tıklama, dönüşüm ve ROAS metriklerini içeren kapsamlı yönetici raporu sunulur ve özel müşteri temsilcinizle değerlendirme toplantısı yapılır.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="index-rail reveal reveal-delay">
+          <div class="index-rail-inner">
+            <span class="index-num">06</span>
+            <h2 class="index-vertical-title">Merak Edilenler</h2>
+            <a href="#iletisim" class="editorial-link">BAŞLAYALIM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Footer Authority Conversion Band -->
+    <section class="prefooter-band">
+      <div class="container prefooter-inner reveal">
+        <div>
+          <span class="card-eyebrow">KONUŞALIM</span>
+          <h2>Projenizi birlikte büyütelim</h2>
+        </div>
+        <div class="prefooter-meta">
+          <a href="https://wa.me/905305773863" target="_blank" rel="noopener noreferrer" class="contact-chip">WhatsApp: 0530 577 38 63</a>
+          <a href="mailto:info@ankaworks.com" class="contact-chip">info@ankaworks.com</a>
+          <a href="#iletisim" class="btn-copper">
+            <span>Ücretsiz Strateji Görüşmesi</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       LUXURY DARK FOOTER WITH BRUSHED-COPPER CONTACT CARD
+       ========================================================= -->
+  <footer class="site-footer" id="iletisim">
+    <div class="container footer-grid">
+      <div class="footer-left reveal">
+        <div class="footer-brand-block">
+          <img src="assets/anka-logo.jpeg" alt="ANKA WORKS" class="footer-logo-img" />
+          <div>
+            <h3>ANKA WORKS</h3>
+            <span>DİJİTAL PAZARLAMA AJANSI</span>
+          </div>
+        </div>
+        <p class="footer-slogan">Gücümüz dijitalde, odağımız büyümenizde.</p>
+        <div class="footer-contact-direct">
+          <a href="https://wa.me/905305773863" target="_blank" rel="noopener noreferrer" class="direct-link">
+            <span class="direct-badge">WA</span>
+            <div>
+              <small>WhatsApp & Telefon</small>
+              <strong>0530 577 38 63</strong>
+            </div>
+          </a>
+          <a href="mailto:info@ankaworks.com" class="direct-link">
+            <span class="direct-badge">@</span>
+            <div>
+              <small>Kurumsal E-posta</small>
+              <strong>info@ankaworks.com</strong>
+            </div>
+          </a>
+        </div>
+        <ul class="footer-bullets">
+          <li>100+ yönetilen hesap ve aylık 5M+ ₺ bütçe deneyimi</li>
+          <li>Google Ads & Meta kanallarında nitelikli hedef kitleye erişim</li>
+          <li>Yaratıcı prodüksiyonla sektörünüzde fark yaratan vitrin</li>
+          <li>Sürekli analiz ve optimizasyonla sürdürülebilir ROAS artışı</li>
+        </ul>
+        <div class="footer-nav-cols">
+          <div>
+            <h4>BÖLÜMLER</h4>
+            <a href="#yaklasim">Yaklaşımımız</a>
+            <a href="#hizmetler">Hizmetlerimiz</a>
+            <a href="#sektorler">Sektörler & 100+ Hesap</a>
+          </div>
+          <div>
+            <h4>OPERASYON</h4>
+            <a href="#performans">Google Ads & Meta</a>
+            <a href="#surec">Süreç Standartları</a>
+            <a href="#sss">Sıkça Sorulan Sorular</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-form-float metal-card reveal reveal-delay">
+        <h3>Şimdi İletişime Geçin</h3>
+        <p class="form-sub">Markanızı birlikte büyütmek için ücretsiz strateji görüşmesi talep edin.</p>
+        <form name="teklif-formu" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contactForm">
+          <input type="hidden" name="form-name" value="teklif-formu" />
+          <p class="hidden-honeypot"><label>Bot: <input name="bot-field" /></label></p>
+
+          <div class="line-field">
+            <input type="text" id="name" name="name" placeholder="Adınız Soyadınız / Marka Adı *" required />
+          </div>
+          <div class="line-field-row">
+            <div class="line-field">
+              <input type="email" id="email" name="email" placeholder="E-posta Adresiniz *" required />
+            </div>
+            <div class="line-field">
+              <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız" />
+            </div>
+          </div>
+          <div class="line-field">
+            <select id="service" name="service" aria-label="Hizmet Seçimi">
+              <option value="Butuncul Paket">Bütüncül Dijital Büyüme (Tümü)</option>
+              <option value="Google Ads & Meta Yonetimi">Google Ads & Meta Reklam Yönetimi</option>
+              <option value="Sosyal Medya & Kreatif">Sosyal Medya & Kreatif Yönetimi</option>
+              <option value="Profesyonel Cekim & Kurgu">Profesyonel Çekim Desteği & Kurgu</option>
+            </select>
+          </div>
+          <div class="line-field">
+            <textarea id="message" name="message" rows="2" placeholder="Hedeflerinizden kısaca bahsedin..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-copper btn-copper--full">
+            <span>Teklif ve Görüşme Talep Et</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </button>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© <span id="currentYear">2026</span> ANKA WORKS Dijital Pazarlama Ajansı. Tüm hakları saklıdır.</span>
+        <span>ANKA WORKS • Gücümüz dijitalde, odağımız büyümenizde.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Action -->
+  <a href="https://wa.me/905305773863?text=Merhaba%2C%20ANKA%20WORKS%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="whatsapp-fab" aria-label="WhatsApp ile İletişime Geç">
+    <svg viewBox="0 0 32 32" fill="currentColor" width="24" height="24" aria-hidden="true">
+      <path d="M16 3C8.82 3 3 8.82 3 16c0 2.3.6 4.54 1.74 6.5L3 29l6.67-1.72A12.93 12.93 0 0016 29c7.18 0 13-5.82 13-13S23.18 3 16 3zm0 23.6c-2.02 0-4-.54-5.73-1.56l-.41-.24-3.96 1.02 1.06-3.86-.27-.43A10.56 10.56 0 015.4 16c0-5.85 4.75-10.6 10.6-10.6S26.6 10.15 26.6 16 21.85 26.6 16 26.6zm5.82-7.93c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.71.16-.21.32-.82 1.03-1 1.24-.18.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.18.21-.32.32-.53.11-.21.05-.4-.03-.55-.08-.16-.71-1.72-.98-2.36-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.55.08-.84.4-.29.32-1.1 1.08-1.1 2.63s1.13 3.05 1.29 3.26c.16.21 2.22 3.39 5.38 4.75.75.32 1.34.52 1.8.66.76.24 1.44.21 1.98.13.61-.09 1.88-.77 2.14-1.51.26-.74.26-1.37.18-1.51-.08-.13-.29-.21-.61-.37z"/>
+    </svg>
+    <span class="whatsapp-fab-label">WhatsApp</span>
+  </a>
+
+  <!-- Scroll-Progress Back-to-Top Ring -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Yukarı Çık">
+    <svg viewBox="0 0 44 44" class="back-to-top-ring" aria-hidden="true">
+      <circle cx="22" cy="22" r="19" class="ring-bg" />
+      <circle cx="22" cy="22" r="19" class="ring-fg" id="backToTopArc" />
+    </svg>
+    <span class="back-to-top-arrow">↑</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
