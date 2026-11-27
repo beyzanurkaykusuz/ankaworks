@@ -261,12 +261,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       try {
         const formData = new FormData(contactForm);
-        const response = await fetch('/', {
+        const response = await fetch('https://formsubmit.co/ajax/info@ankaworks.com.tr', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(formData).toString(),
+          headers: { Accept: 'application/json' },
+          body: formData,
         });
-
         if (response.ok) {
           formStatus.textContent =
             'Talebiniz başarıyla alındı. Müşteri temsilcimiz en kısa sürede sizinle iletişime geçecektir.';
@@ -276,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       } catch (_err) {
         formStatus.textContent =
-          'Form yerel önizlemede simüle edildi. Netlify üzerinde yayınlandığında otomatik olarak çalışacaktır.';
+          'Gönderim sırasında bir sorun oluştu. Lütfen WhatsApp üzerinden bizimle iletişime geçin.';
       } finally {
         submitBtn.disabled = false;
         submitBtn.innerHTML = originalHTML;
